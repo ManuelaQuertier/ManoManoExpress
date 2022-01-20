@@ -1,44 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 .header {
-    height: 15vw;
+  height: 15vw;
 }
 .drone {
-    height: 60vw;
-    background-image: url("/assets/images/drone.jpg");
-    background-size: cover;
+  height: 60vw;
+  background-image: url("/assets/images/drone.jpg");
+  background-size: cover;
 }
-.localisation{
-    border: solid 1px black;
-    border-radius: 30px;
-    padding: 5px;
+.localisation {
+  border: solid 1px black;
+  border-radius: 30px;
+  padding: 5px;
 }
-.logoExpress{
-    width: 150px;
+.logoExpress {
+  width: 150px;
 }
 .logoLoca {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
 .headerMain {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .main {
-    background-color: #f5f6f7;
-}
-
-.logo {
-    padding-top: 25px;
-}
-.search {
-    height: 70px;
-    width: 80px;
+  background-color: #f5f6f7;
 }
 
 .urgent {
-    padding-top: 80px;
+  width: 50px;
+  height: 20px;
+  padding: 15px;
+}
+
+.search {
+  width: 50%;
+}
+
+.main-final {
+  background-color: #141750;
+}
+
+.trait-dessus {
+  border-top: 2px solid rgb(255, 255, 255);
+  width: 390px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.small-img {
+    width: 100px;
+    height: 100px;
+}
+
+.text-article {
+    font-size: 12px;
+}
+
+.img-geo {
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.quantite {
+    padding-left: 100px;
+}
+
+.btn-supp {
+    padding-bottom: 10 px;
+    height: 35px;
+}
+
+.num-qt {
+    background-color:  #ffca2c;;
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+}
+
+.total-ht {
+    text-align: center;
 }
 
 .login {
@@ -71,4 +114,7 @@ body {
 .commander {
     background-color: #141750 !important;
     border-radius: 30px !important;
+}
+.total-article {
+    height: 50px;
 }

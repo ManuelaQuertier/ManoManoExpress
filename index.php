@@ -11,20 +11,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="headerMain">
-            <div class="row">
-                <div class="logo col">
-                    <img src="/assets/images/logo-manomano-177x142-1.png" alt="Home">
+    <div class="header">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-                <div class="search col">
-                    <img src="/assets/images/search.jpg">
+                <div>
+                    <a href="/index.php"><img class="logoExpress" src="assets/images/logoManomano.png" alt="logo"></a>
+                </div>
+                <div class="localisation d-flex">
+                    <input class="search form-control" type="text" placeholder="Search" aria-label="Search">
                 </div>
                 <div class="urgent col">
-                <a href="/express.php"><button type="button">Livraison Urgente</button></a>
+                    <a href="/express.php"><button class="btn btn-danger" type="button">Livraison Urgente</button></a>
                 </div>
-                <div class="login col">
-                    <img src="/assets/images/Capture.PNG">
+                <div class="user">
+                    <img src="assets/images/person-circle.svg" alt="user">
+                    <img src="assets/images/caddie.png" alt="caddie" width="15px" height="15px">
                 </div>
             </div>
             <div class="menu row">
@@ -35,11 +41,11 @@
                     <img class="" src="/assets/images/Capture2.PNG">
                 </div>
             </div>
-        </header>
-        <main class="main">
-            <h1>Hello Every Body !!</h1>
-        </main>
+        </nav>
     </div>
+    <main class="main">
+        <h1>Hello Every Body !!</h1>
+    </main>
 </body>
 
 </html>
