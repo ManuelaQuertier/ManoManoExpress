@@ -87,6 +87,18 @@
 .login {
     padding-top: 75px;
 }
+
+.articles {
+    background:#141750 ;
+    color:white;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#search_articles {
+    width: 100px;
+}
+
 h1 {
     color: #FFBA33;
     font-family: 'Roboto Condensed', sans-serif;
