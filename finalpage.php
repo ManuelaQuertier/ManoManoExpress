@@ -32,18 +32,18 @@
         </nav>
     </div>
     <main class="main-final container">
-        <h1 class="text-light"><em>Mon Panier</em></h1>
-        <div class="article">
+        <h1 class="text-light pt-2 text-center"><em>Mon Panier</em></h1>
+        <div class="article pt-2">
             <div class="d-flex">
                 <div class="small-img">
                     <img class="small-img" src="/assets/images/23996991_2.jpg" />
                 </div>
                 <div class="detail-article">
-                    <p class="text-light text-article">Corps thermostatique equerre 15/21 mâle
+                    <p class="text-light text-article px-2">Corps thermostatique equerre 15/21 mâle
                         / femelle laiton nickelé DANFOSS
                     </p>
-                    <p class="text-light text-article">Réf : 68383602</p>
-                    <p class="text-light text-article">Prix Unitaire : 12,59 euros/HT</p>
+                    <p class="text-light text-article px-2">Réf : 68383602</p>
+                    <p class="text-light text-article px-2">Prix Unitaire : 12,59 euros/HT</p>
                 </div>
             </div>
             <div class="total-article d-flex">
@@ -55,17 +55,17 @@
             </div>
         </div>
         <div class="trait-dessus"></div>
-        <div class="article">
+        <div class="article pt-2">
             <div class="d-flex">
                 <div class="small-img">
                     <img class="small-img" src="/assets/images/39533027_1.webp" />
                 </div>
                 <div class="detail-article">
-                    <p class="text-light text-article">Corps thermostatique equerre 15/21 mâle
+                    <p class="text-light text-article px-2">Corps thermostatique equerre 15/21 mâle
                         / femelle laiton chromé DANFOSS
                     </p>
-                    <p class="text-light text-article">Réf : 68383595</p>
-                    <p class="text-light text-article">Prix Unitaire : 21,69 euros/HT</p>
+                    <p class="text-light text-article px-2">Réf : 68383595</p>
+                    <p class="text-light text-article px-2">Prix Unitaire : 21,69 euros/HT</p>
                 </div>
             </div>
             <div class="total-article d-flex">
@@ -78,12 +78,12 @@
         </div>
         <div class="trait-dessus"></div>
         <div class="Total d-flex flex-column align-item-center">
-            <h2 class="text-light total-ht">TOTAL HT : 34,90 Euros</h2>
+            <h2 class="text-light total-ht py-2">TOTAL HT : 34,90 Euros</h2>
         </div>
         <div class="validation d-flex flex-column align-items-center">
-            <button class="btn btn-warning" type="button">Validation de la commande</button>
+            <button class="btn btn-warning my-2" type="button">Validation de la commande</button>
         </div>
-        <div class="Estimation d-flex flex-column align-items-center">
+        <div class="Estimation d-flex flex-column align-items-center py-2">
             <h2 class="text-light">Estimation livraison : 34 mn</h2>
             <p class="text-light">Vous serez alerté 5 mn avant l'arriver du drone</p>
         </div>
