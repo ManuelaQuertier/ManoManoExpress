@@ -19,7 +19,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <img class="logoExpress" src="assets/images/logoManomano.png" alt="logo">
+                <a href="/index.php"><img class="logoExpress" src="assets/images/logoManomano.png" alt="logo"></a>
                 <div class="localisation d-flex align-items-center">
                     <img class="logoLoca" src="assets/images/localisation.png" alt="localisation">
                     <p class="mb-0">ma position</p>
