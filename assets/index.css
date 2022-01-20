@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+:root{
+    --light: #E7E7E7;
+    --dark: #141750;
+}
 .header {
   height: 15vw;
 }
@@ -23,10 +27,6 @@
 .headerMain {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-}
-
-.main {
-  background-color: #f5f6f7;
 }
 
 .urgent {
@@ -89,10 +89,9 @@
 }
 
 .articles {
-    background:#141750 ;
-    color:white;
-    padding-left: 15px;
-    text-align: center;
+    background-color: #141750;
+    color:#141750;
+    height: 100vh;
 }
 
 #search_articles {
@@ -118,6 +117,7 @@ h1 {
 }
 body {
     background-color: #E7E7E7 !important;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .formAdress {
     width: 86vw !important;
@@ -130,9 +130,17 @@ body {
 .total-article {
     height: 50px;
 }
+.intro{
+    height: 200px;
+}
+.intro button {
+    width: 400px;
+}
+.btn-warning {
+    background-color: #FBA43E !important;
+}
 
 .confirmation {
-  color:white;
   background:#141750;
   height: 100vh;
   text-align: center;

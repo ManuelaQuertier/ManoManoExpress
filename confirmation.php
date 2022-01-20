@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header bg-white">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,24 +31,16 @@
             </div>
         </nav>
     </div>
-    <main class="confirmation container">
-        <h1><em>Commande confirmée</em></h1>
-        <div>
-            <div>
-                    <img src="/assets/images/giphy.gif" class="img-thumbnail" width="300" >
-                    </br>
-                    <h2>Merci de vôtre confiance!</h2>
-                    </br></br>
-                    <h4>Vôtre expédition N°EX20220121N12 </br> est cours de préparation !</h4>
-                    </br>
-                    
-                
+    <div class="confirmation container">
+        <h1 class="pt-5"><em>Commande confirmée</em></h1>
+        <div class="pt-3">
+            <img src="/assets/images/giphy.gif" class="img-thumbnail mb-5" width="300">
+            <div class="bg-light">
+            <h2 class="pt-5 text-dark">Merci de votre confiance!</h2>
+            <h4 class="py-4 text-dark">Votre expédition N°EX20220121N12 </br> est cours de préparation !</h4>
             </div>
-        </br></br>
-       
-
-        
-    </main>
+        </div>
+    </div>
 </body>
 
 </html>
