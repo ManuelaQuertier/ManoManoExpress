@@ -42,3 +42,13 @@
 .login {
     padding-top: 75px;
 }
+
+.articles {
+    background:#141750 ;
+    color:white;
+}
+
+#search_articles {
+    width: 100px;
+}
+
