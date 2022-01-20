@@ -81,7 +81,7 @@
             <h2 class="text-light total-ht py-2">TOTAL HT : 34,90 Euros</h2>
         </div>
         <div class="validation d-flex flex-column align-items-center">
-            <button class="btn btn-warning my-2" type="button">Validation de la commande</button>
+            <button onclick="window.location.href = 'http://localhost:8000/confirmation.php';"class="btn btn-warning my-2" type="button">Validation de la commande</button>
         </div>
         <div class="Estimation d-flex flex-column align-items-center py-2">
             <h2 class="text-light">Estimation livraison : 34 mn</h2>

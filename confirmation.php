@@ -31,65 +31,23 @@
             </div>
         </nav>
     </div>
-    <main class="main-final container">
-        <h1 class="text-light pt-2 text-center"><em>Mon Panier</em></h1>
-        <div class="article pt-2">
-            <div class="d-flex">
-                <div class="small-img">
-                    <img class="small-img" src="/assets/images/23996991_2.jpg" />
-                </div>
-                <div class="detail-article">
-                    <p class="text-light text-article px-2">Corps thermostatique equerre 15/21 mâle
-                        / femelle laiton nickelé DANFOSS
-                    </p>
-                    <p class="text-light text-article px-2">Réf : 68383602</p>
-                    <p class="text-light text-article px-2">Prix Unitaire : 12,59 euros/HT</p>
-                </div>
+    <main class="confirmation container">
+        <h1><em>Commande confirmée</em></h1>
+        <div>
+            <div>
+                    <img src="/assets/images/giphy.gif" class="img-thumbnail" width="300" >
+                    </br>
+                    <h2>Merci de vôtre confiance!</h2>
+                    </br></br>
+                    <h4>Vôtre expédition N°EX20220121N12 </br> est cours de préparation !</h4>
+                    </br>
+                    
+                
             </div>
-            <div class="total-article d-flex">
-                <button class="btn btn-warning btn-sm btn-supp" type="button">Supprimer</button>
-                <p class="text-light quantite">Quantités : </p>
-                <div class="num-qt">
-                    <p>1</p>
-                </div>
-            </div>
-        </div>
-        <div class="trait-dessus"></div>
-        <div class="article pt-2">
-            <div class="d-flex">
-                <div class="small-img">
-                    <img class="small-img" src="/assets/images/39533027_1.webp" />
-                </div>
-                <div class="detail-article">
-                    <p class="text-light text-article px-2">Corps thermostatique equerre 15/21 mâle
-                        / femelle laiton chromé DANFOSS
-                    </p>
-                    <p class="text-light text-article px-2">Réf : 68383595</p>
-                    <p class="text-light text-article px-2">Prix Unitaire : 21,69 euros/HT</p>
-                </div>
-            </div>
-            <div class="total-article d-flex">
-                <button class="btn btn-warning btn-sm btn-supp" type="button">Supprimer</button>
-                <p class="text-light quantite">Quantités : </p>
-                <div class="num-qt">
-                    <p>1</p>
-                </div>
-            </div>
-        </div>
-        <div class="trait-dessus"></div>
-        <div class="Total d-flex flex-column align-item-center">
-            <h2 class="text-light total-ht py-2">TOTAL HT : 34,90 Euros</h2>
-        </div>
-        <div class="validation d-flex flex-column align-items-center">
-            <button class="btn btn-warning my-2" type="button">Validation de la commande</button>
-        </div>
-        <div class="Estimation d-flex flex-column align-items-center py-2">
-            <h2 class="text-light">Estimation livraison : 34 mn</h2>
-            <p class="text-light">Vous serez alerté 5 mn avant l'arriver du drone</p>
-        </div>
-        <div class="géolocalisation">
-            <img class="img-geo" src="/assets/images/Capture3.JPG">
-        </div>
+        </br></br>
+       
+
+        
     </main>
 </body>
 

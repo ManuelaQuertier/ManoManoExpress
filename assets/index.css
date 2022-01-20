@@ -130,3 +130,10 @@ body {
 .total-article {
     height: 50px;
 }
+
+.confirmation {
+  color:white;
+  background:#141750;
+  height: 100vh;
+  text-align: center;
+}
