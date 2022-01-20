@@ -15,13 +15,13 @@
         <header class="headerMain">
             <div class="row">
                 <div class="logo col">
-                    <a href="/express.php"><img src="/assets/images/logo-manomano-177x142-1.png" alt="Home"></a>
+                    <img src="/assets/images/logo-manomano-177x142-1.png" alt="Home">
                 </div>
                 <div class="search col">
                     <img src="/assets/images/search.jpg">
                 </div>
                 <div class="urgent col">
-                    <button type="button">Livraison Urgente</button>
+                <a href="/express.php"><button type="button">Livraison Urgente</button></a>
                 </div>
                 <div class="login col">
                     <img src="/assets/images/Capture.PNG">
