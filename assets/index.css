@@ -2,6 +2,7 @@
 
 :root{
     --light: #E7E7E7;
+    --dark: #141750;
 }
 .header {
   height: 15vw;
@@ -137,4 +138,10 @@ body {
 }
 .btn-warning {
     background-color: #FBA43E !important;
+}
+
+.confirmation {
+  background:#141750;
+  height: 100vh;
+  text-align: center;
 }
