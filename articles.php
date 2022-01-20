@@ -65,7 +65,7 @@
             <a id="linkClose" class="close">&times;</a>
             <strong>Article ajouté au panier</strong>
         </div>
-        <div class="mon panier mt-4 text-center">
+        <div class="mon panier mt-5 text-center">
             <a href="/finalpage.php"><button type="button" class="btn btn-light">Valider mon Panier</button></a>
         </div>
     </section>
@@ -75,12 +75,12 @@
             $('#add').click(function() {
                 $('#myAlert').show('fade');
 
-                setTimeout(function(){
+                setTimeout(function() {
                     $('#myAlert').hide('fade');
-                }, 1500);
+                }, 1200);
             });
-       
-            $('#linkclose').click(function(){
+
+            $('#linkclose').click(function() {
                 $('#myAlert').hide('fade');
             });
         });
@@ -89,12 +89,12 @@
             $('#add2').click(function() {
                 $('#myAlert').show('fade');
 
-                setTimeout(function(){
+                setTimeout(function() {
                     $('#myAlert').hide('fade');
-                }, 1500);
+                }, 1200);
             });
-       
-            $('#linkclose').click(function(){
+
+            $('#linkclose').click(function() {
                 $('#myAlert').hide('fade');
             });
         });
