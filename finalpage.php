@@ -36,7 +36,7 @@
         <div class="article pt-2">
             <div class="d-flex">
                 <div class="small-img">
-                    <img class="small-img" src="/assets/images/23996991_2.jpg" />
+                    <img class="small-img" src="/assets/images/danfoss-équerre.jpeg" />
                 </div>
                 <div class="detail-article">
                     <p class="text-light text-article px-2">Corps thermostatique equerre 15/21 mâle
@@ -58,7 +58,7 @@
         <div class="article pt-2">
             <div class="d-flex">
                 <div class="small-img">
-                    <img class="small-img" src="/assets/images/39533027_1.webp" />
+                    <img class="small-img" src="/assets/images/danfoss-équerre2.jpeg" />
                 </div>
                 <div class="detail-article">
                     <p class="text-light text-article px-2">Corps thermostatique equerre 15/21 mâle
