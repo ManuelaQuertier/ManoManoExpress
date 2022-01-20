@@ -32,11 +32,12 @@
         </nav>
     </div>
     <section class="articles">
-        <form action="" method="get">
-            <div id="search_articles">
-                <label for="search"></label>
-                <input type="text" name="search" id="search" placeholder="Effectuer une recherche sur ManoMano Express">
-            </div>
+        <form class="mb-3 row" action="" method="get">
+        <div class="mb-3 row">
+    <label for="search" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword" placeholder="🔍 Effectuer votre recherche sur ManoMano Express">
+    </div>
         </form>
 
         <h2>Plomberie chauffage</h2>
@@ -48,11 +49,11 @@
             <p>Ref : 68383602</p>
             <div class="article">
                 <div>
-                    <img src="assets/images/danfoss-équerre.jpeg">
+                    <img src="assets/images/danfoss-équerre.jpeg" class="img-thumbnail">
                 </div>
                 <div>
-                    <input class="favorite styled" type="button" value="achat immédiat">
-                    <input class="favorite styled" type="button" value="ajouter au panier">
+                    <input class="btn btn-warning" type="button" value="achat immédiat">
+                    <input class="btn btn-warning" type="button" value="ajouter au panier">
                 </div>
             </div>    
             <p>Prix : 12,59 euros / HT</p>        
@@ -62,11 +63,11 @@
             <p>Ref : 68383595</p>
             <div class="article">
                 <div>
-                    <img src="assets/images/danfoss-équerre2.jpeg">
+                    <img src="assets/images/danfoss-équerre2.jpeg" class="img-thumbnail">
                 </div>
                 <div>
-                    <input class="favorite styled" type="button" value="achat immédiat">
-                    <input class="favorite styled" type="button" value="ajouter au panier">
+                    <input class="btn btn-warning" type="button" value="achat immédiat">
+                    <input class="btn btn-warning" type="button" value="ajouter au panier">
                 </div>
             </div>    
             <p>Prix : 21,69 euros / HT</p>        
