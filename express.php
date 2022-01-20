@@ -26,7 +26,7 @@
                 </div>
                 <div class="user">
                     <img src="assets/images/person-circle.svg" alt="user">
-                    <img src="assets/images/caddie.png" alt="caddie" width="15px" height="15px">
+                    <a href="/finalpage.php"><img src="assets/images/caddie.png" alt="caddie" width="15px" height="15px"></a>
                 </div>
             </div>
         </nav>
@@ -43,7 +43,7 @@
             </button>
             <input type="text" class="research form-control mt-3" placeholder="🔍 Faire une recherche sur ManoMano Express">
         </div>
-        <div class="buttonS d-flex justify-content-between">
+        <div class="d-flex justify-content-between">
             <button type="button" class="btn btn-secondary">Outillages</button>
             <button type="button" class="btn btn-secondary">Plomberie chauffage</button>
             <button type="button" class="btn btn-secondary">Electricité</button>
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-center">
-        <button type="button" class="btn btn-dark commander">Commander</button>
+        <a href="/articles.php"><button type="button" class="btn btn-dark commander">Commander</button></a>
         </div>
 
     </div>

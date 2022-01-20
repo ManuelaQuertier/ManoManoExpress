@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header bg-white">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
                 </div>
                 <div class="user">
                     <img src="assets/images/person-circle.svg" alt="user">
-                    <img src="assets/images/caddie.png" alt="caddie" width="15px" height="15px">
+                    <a href="/finalpage.php"><img src="assets/images/caddie.png" alt="caddie" width="15px" height="15px"></a>
                 </div>
             </div>
         </nav>
@@ -92,5 +92,4 @@
         </div>
     </main>
 </body>
-
 </html>

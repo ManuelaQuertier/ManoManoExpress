@@ -13,8 +13,7 @@
 </head>
 
 <body>
-    <main class="container">
-    <div class="header">
+    <div class="header bg-white">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,58 +26,46 @@
                 </div>
                 <div class="user">
                     <img src="assets/images/person-circle.svg" alt="user">
-                    <img src="assets/images/caddie.png" alt="caddie" width="15px" height="15px">
+                    <a href="/finalpage.php"><img src="assets/images/caddie.png" alt="caddie" width="15px" height="15px"></a>
                 </div>
             </div>
         </nav>
     </div>
-    
+
     <section class="articles">
-        <form class="mb-3 row" action="" method="get">
-        <div class="mb-3 row">
-    <label for="search" class="col-sm-2 col-form-label"></label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword" placeholder="🔍 Effectuer votre recherche sur ManoMano Express">
-    </div>
-        </form>
-
-        <h2>Plomberie chauffage</h2>
-
-        <h6>Articles éligibles pour la livraison du drône</h6>
-
-        <div>
-            <p>Corps thermostatique equerre 15/21 mâle / femelle laiton nickelé DANFOSS</p>
-            <p>Ref : 68383602</p>
-            <div class="d-flex article ">
-                <div>
-                    <img src="assets/images/danfoss-équerre.jpeg" id="img1-1" class="img-thumbnail" width="150">
-                </div>
-                <div class="button_right d-flex flex-column justify-content-around align-items-center">
-                    <input class="btn btn-warning" type="button" value="achat immédiat"id="button_ecart">
+        <div class="intro container d-flex flex-column justify-content-around align-items-center">
+            <input type="text" class="research form-control" id="inputPassword" placeholder="🔍 Faire votre recherche sur ManoMano Express">
+            <button type="button" class="btn btn-light">Plomberie chauffage</button>
+            <h6 class="fst-italic text-warning">Articles éligibles pour la livraison par drône :</h6>
+        </div>
+        <div class="container bg-light pb-3">
+            <h3 class="text-center">Corps thermostatique equerre 15/21 mâle / femelle laiton nickelé DANFOSS</h3>
+            <p class="mb-0">Ref : 68383602</p>
+            <p class="text-end mb-0 text-decoration-underline">Prix : 12,59 euros / HT</p>
+            <div class="article d-flex justify-content-around">
+                <img src="assets/images/danfoss-équerre.jpeg" id="img1-1" class="img-thumbnail pb-2" width="150">
+                <div class="buttons d-flex flex-column justify-content-around align-items-center">
+                    <input class="btn btn-warning" type="button" value="achat immédiat" id="button_ecart">
                     <input class="btn btn-warning" type="button" value="ajouter au panier">
                 </div>
             </div>
-                  
         </div>
-        <p>Prix : 12,59 euros / HT</p>  
-        <div>
-            <p>Corps thermostatique equerre 15/21 mâle / femelle laiton chromé DANFOSS</p>
-            <p>Ref : 68383595</p>
-            <div class="d-flex article">
-                <div>
-                    <img src="assets/images/danfoss-équerre2.jpeg" id="img1-1" class="img-thumbnail" width="150">
-                </div>
-                <div class="button_right d-flex flex-column justify-content-around align-items-center">
-                    <input class="btn btn-warning" type="button" value="achat immédiat"id="button_ecart">
+        <div class="container bg-light pb-3 mt-4">
+            <h3 class="text-center">Corps thermostatique equerre 15/21 mâle / femelle laiton chromé DANFOSS</h3>
+            <p class="mb-0">Ref : 68383595</p>
+            <p class="text-end mb-0 text-decoration-underline">Prix : 21,69 euros / HT</p>
+            <div class="article d-flex justify-content-around">
+                <img src="assets/images/danfoss-équerre2.jpeg" id="img1-1" class="img-thumbnail pb-2" width="150">
+                <div class="buttons d-flex flex-column justify-content-around align-items-center">
+                    <input class="btn btn-warning" type="button" value="achat immédiat" id="button_ecart">
                     <input class="btn btn-warning" type="button" value="ajouter au panier">
                 </div>
             </div>
-               
         </div>
-        <p>Prix : 21,69 euros / HT</p>    
+        <div class="mon panier mt-4 text-center">
+            <a href="/finalpage.php"><button type="button" class="btn btn-light">Valider mon Panier</button></a>
+        </div>
     </section>
-</main>
-    
 </body>
 
 </html>
