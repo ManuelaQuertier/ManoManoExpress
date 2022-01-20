@@ -78,7 +78,7 @@
         </div>
         <div class="trait-dessus"></div>
         <div class="Total d-flex flex-column align-item-center">
-            <h2 class="text-light total-ht py-2">TOTAL HT : 34,90 Euros</h2>
+            <h2 class="text-light total-ht py-2">TOTAL HT : 34,28 Euros</h2>
         </div>
         <div class="validation d-flex flex-column align-items-center">
             <button onclick="window.location.href = 'http://localhost:8000/confirmation.php';"class="btn btn-warning my-2" type="button">Validation de la commande</button>

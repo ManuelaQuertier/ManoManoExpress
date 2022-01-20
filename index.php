@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <div class="header">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
@@ -39,7 +38,7 @@
         </nav>
     </div>
     <main class="main">
-        <h2>Hello EveryBody !!</h2>
+        <img class="" src="/assets/images/Capture5.JPG">
     </main>
 </body>
 
