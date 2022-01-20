@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <main class="container">
     <div class="header">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
@@ -31,6 +32,7 @@
             </div>
         </nav>
     </div>
+    
     <section class="articles">
         <form class="mb-3 row" action="" method="get">
         <div class="mb-3 row">
@@ -42,37 +44,40 @@
 
         <h2>Plomberie chauffage</h2>
 
-        <h4>Articles éligibles pour la livraison du drône</h4>
+        <h6>Articles éligibles pour la livraison du drône</h6>
 
         <div>
             <p>Corps thermostatique equerre 15/21 mâle / femelle laiton nickelé DANFOSS</p>
             <p>Ref : 68383602</p>
-            <div class="article">
+            <div class="d-flex article ">
                 <div>
-                    <img src="assets/images/danfoss-équerre.jpeg" class="img-thumbnail">
+                    <img src="assets/images/danfoss-équerre.jpeg" id="img1-1" class="img-thumbnail" width="150">
                 </div>
-                <div>
-                    <input class="btn btn-warning" type="button" value="achat immédiat">
+                <div class="button_right d-flex flex-column justify-content-around align-items-center">
+                    <input class="btn btn-warning" type="button" value="achat immédiat"id="button_ecart">
                     <input class="btn btn-warning" type="button" value="ajouter au panier">
                 </div>
-            </div>    
-            <p>Prix : 12,59 euros / HT</p>        
+            </div>
+                  
         </div>
+        <p>Prix : 12,59 euros / HT</p>  
         <div>
             <p>Corps thermostatique equerre 15/21 mâle / femelle laiton chromé DANFOSS</p>
             <p>Ref : 68383595</p>
-            <div class="article">
+            <div class="d-flex article">
                 <div>
-                    <img src="assets/images/danfoss-équerre2.jpeg" class="img-thumbnail">
+                    <img src="assets/images/danfoss-équerre2.jpeg" id="img1-1" class="img-thumbnail" width="150">
                 </div>
-                <div>
-                    <input class="btn btn-warning" type="button" value="achat immédiat">
+                <div class="button_right d-flex flex-column justify-content-around align-items-center">
+                    <input class="btn btn-warning" type="button" value="achat immédiat"id="button_ecart">
                     <input class="btn btn-warning" type="button" value="ajouter au panier">
                 </div>
-            </div>    
-            <p>Prix : 21,69 euros / HT</p>        
+            </div>
+               
         </div>
+        <p>Prix : 21,69 euros / HT</p>    
     </section>
+</main>
     
 </body>
 

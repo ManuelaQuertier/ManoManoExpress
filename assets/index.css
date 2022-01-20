@@ -46,9 +46,13 @@
 .articles {
     background:#141750 ;
     color:white;
+    padding-left: 15px;
+    text-align: center;
 }
 
 #search_articles {
     width: 100px;
 }
+
+
 
