@@ -1,0 +1,44 @@
+.header {
+    height: 15vw;
+}
+.drone {
+    height: 60vw;
+    background-image: url("/assets/images/drone.jpg");
+    background-size: cover;
+}
+.localisation{
+    border: solid 1px black;
+    border-radius: 30px;
+    padding: 5px;
+}
+.logoExpress{
+    width: 150px;
+}
+.logoLoca {
+    width: 15px;
+    height: 15px;
+}
+.headerMain {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+}
+
+.main {
+    background-color: #f5f6f7;
+}
+
+.logo {
+    padding-top: 25px;
+}
+.search {
+    height: 70px;
+    width: 80px;
+}
+
+.urgent {
+    padding-top: 80px;
+}
+
+.login {
+    padding-top: 75px;
+}
